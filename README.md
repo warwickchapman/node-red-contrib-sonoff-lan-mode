@@ -4,6 +4,12 @@ Node-RED nodes to communicate with Sonoff Smart Switch devices on LAN.
 
 No need for API keys, nor eWeLink cloud connection. The only requirement is to have Node-RED in the same network where Sonoff devices are installed.
 
+## Compatibility WARNING
+
+Please note that this only works with Sonoff "DIY" compatible devices, currently [Basic R3, RF R3, Mini R3, D1 and energy meter and bulbs](https://sonoff.tech/diy-developer/).
+
+You will need to prepare the device for DIY mdoe following the instructions from Sonoff at: https://sonoff.tech/diy-developer/
+
 ## Install
 
 You can install this node directly from the "Manage Palette" menu in the Node-RED interface.
